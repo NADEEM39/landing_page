@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+.container{
+    background-image: url(developer.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.text{
+    color: white;
+    max-width: 900;
+    
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    
+    font-size: 40px ;
+}
+.box{
+    height: 20vh;
+    background: rgb(34, 85, 144);
+    display: flex;
+    justify-content: center;
+    }
+
+h2{
+    font-size: 70px;
+    color: white;
+    font-family: sans-serif;
+
+}
+h1{
+    font-family: sans-serif;
+}
+.container_cards{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(213, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_container{
+    height:50vh ;
+    width: 85%;
+    background-color: rgb(213, 222, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+    
+}
+/* .romeo{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+} */
+#card1{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 6px;
+
+}
+#card2{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 6px;
+}
+#card3{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 6px;
+}
+.img1{
+    height: 170px;
+    width: 280px;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.img2{
+    height: 170px;
+    width: 280px;
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.img3{
+    height: 170px;
+    width: 280px;
+    background-image: url(img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.text1{
+    margin-top:10px ;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+h4{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text2{
+    margin-top:10px ;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.text3{
+    margin-top:10px ;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.final{
+    height: 35vh;
+    width: 100%;
+    background-color: rgb(73, 124, 121);
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.contact{
+    background-color: rgb(225, 199, 234);
+    height: 35vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme{
+    background-color: rgb(225, 199, 234);
+    height: 35vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 20px;
+    font-weight: 2px;
+}
+p1{
+    font-size: 30px;
+}
+.last{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+
+}
